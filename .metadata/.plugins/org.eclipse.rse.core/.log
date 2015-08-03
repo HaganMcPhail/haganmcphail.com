@@ -1,0 +1,6 @@
+Thu Sep 13 10:24:02 CDT 2012
+INFO org.eclipse.rse.core  Saved passwords are not available for migration to secure storage. Deprecated authorization classes (org.eclipse.core.runtime.compatibility.auth) are not installed.
+--------------------------------------------
+Thu Sep 13 10:29:55 CDT 2012
+INFO org.eclipse.rse.core  Connect operation timed out after 120000 milliseconds. Operation canceled.
+--------------------------------------------

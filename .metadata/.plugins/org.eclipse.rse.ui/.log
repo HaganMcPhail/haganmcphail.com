@@ -1,0 +1,20 @@
+Thu Sep 13 10:33:07 CDT 2012
+ERROR org.eclipse.rse.ui  RSEG1066U: SUB#0:org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+org.apache.commons.net.ftp.FTPConnectionClosedException: Connection closed without indication.
+	at org.apache.commons.net.ftp.FTP.__getReply(FTP.java:298)
+	at org.apache.commons.net.ftp.FTP.sendCommand(FTP.java:495)
+	at org.apache.commons.net.ftp.FTP.sendCommand(FTP.java:537)
+	at org.apache.commons.net.ftp.FTP.pass(FTP.java:701)
+	at org.eclipse.rse.internal.services.files.ftp.FTPService.connect(FTPService.java:425)
+	at org.eclipse.rse.internal.subsystems.files.ftp.connectorservice.FTPConnectorService.internalConnect(FTPConnectorService.java:128)
+	at org.eclipse.rse.internal.subsystems.files.ftp.connectorservice.FTPConnectorService.internalConnect(FTPConnectorService.java:104)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService$1.run(AbstractConnectorService.java:500)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService$SafeRunner.run(AbstractConnectorService.java:444)
+	at org.eclipse.rse.core.subsystems.AbstractConnectorService.connect(AbstractConnectorService.java:506)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.ensureConnected(SystemFetchOperation.java:309)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.execute(SystemFetchOperation.java:373)
+	at org.eclipse.rse.ui.operations.SystemFetchOperation.run(SystemFetchOperation.java:182)
+	at org.eclipse.rse.ui.view.AbstractSystemViewAdapter.fetchDeferredChildren(AbstractSystemViewAdapter.java:2290)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+--------------------------------------------
