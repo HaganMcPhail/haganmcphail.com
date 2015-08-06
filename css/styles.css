@@ -41,7 +41,7 @@ section#home{
     z-index:5;
     background-image: url(../img/silver2.jpg);
 }
-/*section#experience{
+section#experience{
     z-index:4;
     background-image: url(../img/greywood.jpg);
 }
@@ -52,8 +52,8 @@ section#skills{
 section#contact{
     z-index:2;
     background-image: url(../img/greymatt.jpg);
-}*/
-section#experience{
+}
+/*section#experience{
     z-index:4;
     background-image: url(../img/silver.jpg);
 }
@@ -64,7 +64,7 @@ section#skills{
 section#contact{
     z-index:2;
     background-image: url(../img/silver.jpg);
-}
+}*/
 .main-content{
     margin-top: 125px;
     font-size: 25px;
@@ -144,6 +144,7 @@ li.mail i:before{font-size: 14px;}
 .icon{
     padding-top:15px;
     padding-bottom:15px;
+    text-align: center;
 }
 .icon a i:before,.icon a:visited i:before{font-size: 50px;color: rgba(255,255,255, 0.75);text-shadow:1px 1px 2px #222,2px 2px 2px #222;}
 .icon a:hover i:before{font-size: 50px;color: rgba(150,150,150, 1);}

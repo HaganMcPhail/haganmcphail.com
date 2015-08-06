@@ -14,9 +14,6 @@ $(document).ready(function(){
         $('section').css('width',bodyWidth);
         $('.main-content').css('max-height', sectionHighest+'px');
         $('#experience .main-content').css('height', mainHighest+'px');
-        // $('#skills .main-content').css('height', mainHighest+'px');
-        // $('.skills-container').css('min-height', mainHighest+'px');
-        // $('.skills-list').css('min-height', mainHighest+'px');
     }
     
     $('.navbar li').hover(function(){
@@ -77,37 +74,9 @@ $(document).ready(function(){
         }
     });
 
-    // function showClicked(toShow){
-    //     $('.'+toShow).show(function(){
-    //         $('.skills-container').toggle('slide',{ direction: "left" }, 600);
-    //     });
-    // }
-
-    // function hideDivs(toShow){
-    //     $('.certs').hide();
-    //     $('.databases').hide();
-    //     $('.techs').hide();
-    //     showClicked(toShow);
-    // }
-
-    // function slideRight(toShow){
-    //     $('.skills-container').toggle('slide',{ direction: "left" }, 600, function(){
-    //         hideDivs(toShow)
-    //     });
-    // }
-
-    // $('.skills-list h3').click(function(){
-    //     var toShow = $(this).attr('skills');
-    //     console.log(beenCLicked);
-    //     if(beenCLicked == true){
-    //         slideRight(toShow);
-    //     } else {
-    //         $('.'+toShow).show(function(){
-    //             $('.skills-container').toggle('slide',{ direction: "left" }, 600);
-    //         });
-    //     }
-    //     beenCLicked = true;
-    // });
-
-    //$('section#skills').css({'z-index':'100','display':'inline-block'});
+    $("#submit").on("click", function(e) {
+        e.preventDefault();
+        $('#message').val('Thank you for your email!  I will respond shortly!    - Hagan');
+        // the rest of your code ...
+    });
 });
